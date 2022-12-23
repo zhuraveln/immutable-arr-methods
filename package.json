@@ -1,7 +1,7 @@
 {
   "name": "immutable-arr-methods",
   "version": "1.0.0",
-  "description": "Convert all JS mutable array's methods to immutable + custom methods",
+  "description": "Convert all JS mutable array's methods to immutable",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
