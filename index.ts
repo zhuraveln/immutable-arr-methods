@@ -14,7 +14,7 @@ export function pop<Type>(array: Type[]): Type {
 
 /** Return new array with new a elements at end of array without mutable source array
  * @param {array<T>} array - source array
- * @param {elements<T>} elements - array of a new elements to push
+ * @param {elements<T>} elements - new elements to push
  * @return {array<T>} new array
  */
 export function push<Type>(array: Type[], ...elements: Type[]): Type[] {
@@ -42,6 +42,17 @@ export function shift<Type>(array: Type[]): Type {
  */
 export function unshift<Type>(array: Type[], ...elements: Type[]): Type[] {
   return [...elements, ...array]
+}
+
+//----------------------------------------------------------------
+// REVERSE
+
+/** Return new reversed array without mutable source array
+ * @param {array<T>} array - source array
+ * @return {array<T>} new array
+ */
+export function reverse<Type>(array: Type[]): Type[] {
+  return [...array].reverse()
 }
 
 //----------------------------------------------------------------
