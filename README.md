@@ -15,7 +15,7 @@ npm immutable-arr-methods
 ## Usage
 
 **All methods have tooltips when you hover over them**
-![tooltips-example](https://drive.google.com/uc?id=1AVGqbKJuDmajtsIpS2ex8ZT-oQB7UvQS)
+![tooltips-example](https://drive.google.com/uc?id=1L4ocvIR9Yt0uTzNUls7InTCqnmGbPzfZ)
 
 ### pop
 
