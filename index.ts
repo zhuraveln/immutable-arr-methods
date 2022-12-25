@@ -12,7 +12,7 @@ export function pop<Type>(array: Type[]): Type {
 //----------------------------------------------------------------
 // PUSH
 
-/** Return new array with new a elements at end of array without mutable source array
+/** Return new array with a new elements at end of array without mutable source array
  * @param {array<T>} array - source array
  * @param {elements<T>} elements - new elements to push
  * @return {array<T>} new array
