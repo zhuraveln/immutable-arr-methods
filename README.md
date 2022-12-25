@@ -112,7 +112,7 @@ Return new spliced array without mutable source array
 ```javascript
 import { splice } from 'immutable-arr-methods'
 
-const i = [7, 1, 33, 444, 42]
+const i = [1, 2, 3, 4, 5]
 
 const j = splice(i, 1, 2, [42, 42]) // (array, startIndex, deleteCount, elements)
 
