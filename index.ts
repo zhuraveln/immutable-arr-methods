@@ -68,3 +68,22 @@ export function sort<Type>(array: Type[], callback?: (a: Type, b: Type) => numbe
 }
 
 //----------------------------------------------------------------
+// SPLICE
+
+/** Return new spliced array without mutable source array
+ * @param {array<T>} array - source array
+ * @param {number} startIndex - array's index to start removing
+ * @param {number} deleteCount - count of elements to remove
+ * @param {elements<T>} elements - array of a new elements to add
+ * @return {array<T>} new array
+ */
+export function splice<Type>(
+  array: Type[],
+  startIndex: number,
+  deleteCount: number,
+  elements: Type[],
+): Type[] {
+  return [...array.slice(0, startIndex), ...elements, ...array.slice(startIndex + deleteCount)]
+}
+
+//----------------------------------------------------------------
