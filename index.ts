@@ -56,3 +56,15 @@ export function reverse<Type>(array: Type[]): Type[] {
 }
 
 //----------------------------------------------------------------
+// SORT
+
+/** Return new sorted array without mutable source array
+ * @param {array<T>} array - source array
+ * @param {function} callback - callback function for sorted array
+ * @return {array<T>} new array
+ */
+export function sort<Type>(array: Type[], callback?: (a: Type, b: Type) => number): Type[] {
+  return [...array].sort(callback)
+}
+
+//----------------------------------------------------------------
