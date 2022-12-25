@@ -10,8 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/zhuraveln/immutable-arr-methods.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "immutable",
+    "array",
+    "methods",
+    "pop",
+    "push",
+    "shift",
+    "unshift",
+    "reverse",
+    "sort",
+    "splice"
+  ],
+  "author": "https://github.com/zhuraveln",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zhuraveln/immutable-arr-methods/issues"
