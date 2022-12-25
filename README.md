@@ -2,14 +2,12 @@
 
 Convert all mutable array's methods to immutable
 
-All methods returned a new array
-
 Also available custom immutable array's methods for different scenarios [custom-arr-methods](https://www.npmjs.com/package/custom-arr-methods)
 
 ## Installation
 
 ```bash
-npm immutable-arr-methods
+npm install immutable-arr-methods
 ```
 
 ## Usage
